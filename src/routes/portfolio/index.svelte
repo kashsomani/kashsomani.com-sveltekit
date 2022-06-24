@@ -1,6 +1,6 @@
 <script>
   import { fly, fade } from "svelte/transition";
-  import ExperienceCard from "./experience-card.svelte"
+  import ExperienceCard from "./_experience-card.svelte"
   let visible = false;
 </script>
 
