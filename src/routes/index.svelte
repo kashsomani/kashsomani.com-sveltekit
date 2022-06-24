@@ -6,7 +6,7 @@
       <p class="py-6">
         I am a Web Developer <span class="text-primary">|</span> Cloud Engineer <span class="text-primary">|</span> Statistician 
       </p>
-      <button class="btn bg-base-100">Open Portfolio</button>
+      <a class="btn bg-base-100" href="/portfolio">Open Portfolio</a>
     </div>
   </div>
 </div>
