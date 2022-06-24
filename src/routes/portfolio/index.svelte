@@ -1,9 +1,10 @@
 <script>
   import { fly, fade } from "svelte/transition";
+  import ExperienceCard from "./experience-card.svelte"
   let visible = false;
 </script>
 
-<div class="w-full p-8">
+<div class="w-full p-8 bg-base-200">
   <div
     class="mockup-code border border-base-300 px-6 min-h-[20%] min-w-full max-w-full "
   >
@@ -16,7 +17,7 @@
           on:click={() => {
             visible = true;
           }}
-          class="btn">start</button
+          class="btn">Run</button
         >
       </div>
     {/if}
@@ -34,5 +35,8 @@
         class="text-success"
         in:fly={{ y: 200, duration: 8000 }}><code>Done!</code></pre>
     {/if}
+  </div>
+  <div>
+    <ExperienceCard/>
   </div>
 </div>
