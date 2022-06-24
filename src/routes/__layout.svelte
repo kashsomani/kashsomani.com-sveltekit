@@ -4,5 +4,6 @@
 </script>
 <Navbar>
   <slot />
+ 
 </Navbar>
 
