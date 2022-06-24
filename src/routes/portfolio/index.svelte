@@ -1,26 +1,17 @@
 <script>
   import { fly, fade } from "svelte/transition";
-  import ExperienceCard from "./_experience-card.svelte"
+  import ExperienceGrid from "./_experience-grid.svelte"
   let visible = false;
+  import { onMount } from 'svelte';
+	onMount(async () => {
+		visible = true
+	});
 </script>
 
 <div class="w-full p-8 bg-base-200">
   <div
     class="mockup-code border border-base-300 px-6 min-h-[20%] min-w-full max-w-full "
   >
-    {#if !visible}
-      <div
-        class="absolute bottom-3 right-3"
-        in:fade={{ duration: 1000 }}
-      >
-        <button
-          on:click={() => {
-            visible = true;
-          }}
-          class="btn">Run</button
-        >
-      </div>
-    {/if}
     {#if visible}
       <pre data-prefix="$" in:fly={{ y: 200, duration: 2000 }}><code
           >sudo download kash_somani</code
@@ -37,6 +28,6 @@
     {/if}
   </div>
   <div>
-    <ExperienceCard/>
+    <ExperienceGrid/>
   </div>
 </div>

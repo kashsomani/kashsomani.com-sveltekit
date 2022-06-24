@@ -32,7 +32,7 @@
     </div>
     
   </div>
-  <footer class="footer footer-center p-10 bg-base-100 text-base-content rounded">
+<footer class="footer footer-center p-10 text-base-content rounded bg-base-100">
     <div class="grid grid-flow-col gap-4">
       <a class="link link-hover">About us</a> 
       <a class="link link-hover">Contact</a> 

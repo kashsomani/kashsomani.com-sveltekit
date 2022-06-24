@@ -1,5 +1,5 @@
 <script>
-    let tabs = [
+    export let tabs = [
         {
             index: 0,
             title: "1",
@@ -13,8 +13,7 @@
             title: "1",
         },
     ];
-
-    let cards = [
+    export let cards = [
         {
             index: 0,
             title: "experience 1",
@@ -31,17 +30,17 @@
             text: ["greetings"],
         },
     ];
-    let currentlyActive = 0;
+ let currentlyActive = 0;
 </script>
 
 <div
-    class="grid grid-cols-1 place-items-center w-60 m-4 bg-base-300 rounded-2xl"
+    class="grid grid-cols-1 place-items-center max-w-1/3 mt-4 bg-base-300 rounded-2xl"
 >
-    <div class="tabs min-w-max tab-border">
+    <div class="tabs tab-border">
         {#each tabs as tab}
             <!-- svelte-ignore a11y-missing-attribute -->
             <a
-                class="tab tab-bordered {tab.index === currentlyActive
+                class="tab tab-bordered tab-sm {tab.index === currentlyActive
                     ? 'tab-active'
                     : ''}"
                 on:click={() => {
@@ -61,8 +60,8 @@
                         <p>{p}</p>
                     {/each}
                     <!-- <div class="card-actions justify-end">
-           <button class="btn btn-sm btn-primary">Buy Now</button>
-           </div> -->
+                <button class="btn btn-sm btn-primary">Buy Now</button>
+            </div> -->
                 </div>
             </div>
         {/if}
