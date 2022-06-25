@@ -1,0 +1,101 @@
+KASH SOMANI
+
+SOFTWARE ENGINEER 4135121587
+DETAILS
+4135121587
+kash@kashsomani.com
+
+LINKS
+kashsomani.com
+github.com/kashsomani
+linkedin.com/in/kashsomani
+twitch.tv/peanut_official
+
+SKILLS
+Agile Development
+JavaScript
+HTML
+CSS
+Java / Spring Boot
+Node.js
+Express.js
+React
+Svelte.js
+Tailwind
+Docker
+Git
+MongoDB
+Vue 3
+Python
+Pandas / Numpy
+Tensorflow
+SQL
+Firebase
+Vercel
+Heroku
+Cloudflare
+
+
+HOBBIES
+Chess, Guitar, Board Games,
+Sketching, Video Games.
+I love playing Rocket League and I
+stream on Twitch
+
+
+EDUCATION
+B.S Computer Science and Mathematics, University of Massachusetts at Amherst,
+GPA:3.72
+September 2017 — May 2021
+Relevant Coursework:
+Machine Learning, Web Programming, Scalable Web Systems, Search Engines, Principles
+of Data Science, Algorithms, Advanced Calculus, Statistics I & II. Abstract Algebra
+
+
+EMPLOYMENT HISTORY
+
+Associate AWS Data Engineer at Liberty Mutual, Seattle
+April 2022 — Present
+• Developed tools to automate Alation queries and tagging, and to make bulk
+changes to Bamboo pipelines
+• Built Cloudforge Templates to deploy EC2 instances
+• Ensured continued support and upgrades of AMIs to enforce and ensure adherence
+to security guidelines
+
+Founder and CEO at Sclink Cloud Technologies, Mumbai
+January 2021 — Present
+• Founded a non profit Cloud solutions company to help schools leverage cloud
+technologies in India
+• Developed public websites and internal software (notification systems for parents
+and students) for schools like Learners' Academy
+• Collaborated with clients, interns, and employees constantly, to deliver the best
+possible products using AGILE methodologies
+
+TechStart Associate at Liberty Mutual, Seattle
+September 2021 — April 2022
+• Developed internal software for Customer Service Representatives
+• Built a REST API using Express.js, while integrating with Auth0 for authentication
+• Constructed a front-end interface using React.js, while prioritizing accessibility and
+company's design patterns
+
+TechStart Intern at Liberty Mutual, Portsmouth
+June 2020 — September 2020
+• Developed REST APIs to facilitate the construction of a company made ticket
+management system
+• Constructed a frontend UI in Vue.js to enable users to query and test the APIs
+• The work included constant collaboration with other team members, and I had the
+experience to work in Agile for the first time
+
+Computer Science Teacher at Learners Academy, Mumbai
+May 2018 — October 2018
+• Aided students with ICSE board projects
+• Administered and graded tests
+• Designed a totally new course structure to comply with the changing ICSE syllabus
+
+PERSONAL PROJECTS
+Image Compression with Unsupervised Learning
+May 2020
+• Compressed sets of facial images using K-Means Clustering and Principal
+Component Analysis (PCA)
+• Constructed a method of evaluating reconstruction error rate and used these
+results to determine the optimal parameters

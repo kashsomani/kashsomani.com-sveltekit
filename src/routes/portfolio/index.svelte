@@ -1,11 +1,11 @@
 <script>
   import { fly, fade } from "svelte/transition";
-  import ExperienceGrid from "./_experience-grid.svelte"
+  import ExperienceGrid from "./_components/_experience-grid.svelte";
   let visible = false;
-  import { onMount } from 'svelte';
-	onMount(async () => {
-		visible = true
-	});
+  import { onMount } from "svelte";
+  onMount(async () => {
+    visible = true;
+  });
 </script>
 
 <div class="w-full p-8 bg-base-200">
@@ -19,8 +19,7 @@
       <pre
         data-prefix=">"
         class="text-warning"
-        in:fly={{ y: 200, duration: 4000 }}><code>downloading...</code
-        ></pre>
+        in:fly={{ y: 200, duration: 4000 }}><code>downloading...</code></pre>
       <pre
         data-prefix=">"
         class="text-success"
@@ -28,6 +27,10 @@
     {/if}
   </div>
   <div>
-    <ExperienceGrid/>
+    {#if visible}
+      <div class="m-0 p-0">
+        <ExperienceGrid />
+      </div>
+    {/if}
   </div>
 </div>
