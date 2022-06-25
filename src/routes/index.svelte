@@ -1,4 +1,4 @@
-<div class="hero h-full bg-base-200">
+<div class="hero h-full bg-base-200" id="hero">
   <div class="hero-content text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Hello there</h1>
@@ -10,3 +10,9 @@
     </div>
   </div>
 </div>
+
+<style>
+  #hero{
+    min-height:80vh;
+  }
+</style>
