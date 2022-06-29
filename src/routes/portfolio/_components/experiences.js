@@ -83,12 +83,12 @@ export let cards = [
       index: 1,
       title: "Technologies",
       tech: [
-        'Bamboo',
-        'EC2',
-        'Cloudformation',
+        'Node.js',
+        'Express.js',
+        'React.js',
+        'Auth0',
         'Git',
-        'Spring Boot',
-        'Bash'
+        'Bamboo',
       ],
     },
     {
@@ -120,12 +120,10 @@ export let cards = [
       index: 1,
       title: "Technologies",
       tech: [
-        'Bamboo',
-        'EC2',
-        'Cloudformation',
+        'React.js',
+        'Express.js',
+        'Node.js',
         'Git',
-        'Spring Boot',
-        'Bash'
       ],
     },
     {
@@ -161,6 +159,40 @@ export let cards = [
         'Git',
         'Spring Boot',
         'Bash'
+      ],
+    },
+    {
+      index: 2,
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
+    },
+  ],
+  [
+    {
+      index: 0,
+      title: "Image Compression with Unsupervised Learning - Personal Project",
+      text: [
+        `Compressed sets of facial images using K-Means Clustering and PrincipalComponent Analysis (PCA)`,
+        `Constructed a method of evaluating reconstruction error rate and used these results to determine the optimal parameters`,
+      ],
+    },
+    {
+      index: 1,
+      title: "Technologies",
+      tech: [
+        'Python',
+        'Numpy',
+        'Pandas',
+        'TensorFlow',
+        'Jupyter',
+        'Git'
       ],
     },
     {
