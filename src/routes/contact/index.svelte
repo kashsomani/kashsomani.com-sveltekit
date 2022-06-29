@@ -93,7 +93,7 @@
             type="text"
             on:change={testEmail}
             bind:value={name}
-            placeholder="Kash Somani"
+            placeholder="Enter Name"
             class="input input-bordered w-full max-w-xs"
         />
         <label class="label">
@@ -109,7 +109,7 @@
             on:change={testName}
             type="text"
             bind:value={email}
-            placeholder="kash@kashsomani.com"
+            placeholder="Enter Email"
             class="input input-bordered w-full max-w-xs"
         />
     </div>
@@ -121,7 +121,7 @@
             bind:value={message}
             on:change={testMessage}
             class="textarea textarea-bordered h-24"
-            placeholder="Hello There!"
+            placeholder="Enter message here!"
         />
     </div>
     <div class="pt-4">
