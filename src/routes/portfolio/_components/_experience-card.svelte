@@ -29,7 +29,8 @@
         {#each tabs as tab}
             <!-- svelte-ignore a11y-missing-attribute -->
             <a
-                class="tab tab-bordered tab-sm {tab.index === currentlyActive
+                class="tab tab-bordered tab-sm text-primary {tab.index ===
+                currentlyActive
                     ? 'tab-active'
                     : ''}"
                 on:click={() => {
@@ -41,16 +42,46 @@
     <div id="cards">
         {#each cards as card}
             {#if card.index === currentlyActive}
-                <div
-                    class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
-                >
-                    <div class="card-body max-w-prose">
-                        <h2 class="card-title">{card.title}</h2>
-                        {#each card.text as p}
-                            <p>{p}</p>
-                        {/each}
+                {#if card.index === 0}
+                    <div
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                    >
+                        <div class="card-body max-w-prose">
+                            <h2 class="card-title">{card.title}</h2>
+                            {#each card.text as p}
+                                <p class="text-primary">{p}</p>
+                            {/each}
+                        </div>
                     </div>
-                </div>
+                {/if}
+                {#if card.index === 1}
+                    <div
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                    >
+                        <div class="card-body max-w-prose">
+                            <h2 class="card-title ">
+                                {card.title}
+                            </h2>
+                            {#each card.tech as p}
+                                <p class="text-primary">{p}</p>
+                            {/each}
+                        </div>
+                    </div>
+                {/if}
+                {#if card.index === 2}
+                    <div
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                    >
+                        <div class="card-body max-w-prose">
+                            <h2 class="card-title ">
+                                {card.title}
+                            </h2>
+                            {#each card.skills as p}
+                                <p class="text-primary">{p}</p>
+                            {/each}
+                        </div>
+                    </div>
+                {/if}
             {/if}
         {/each}
     </div>

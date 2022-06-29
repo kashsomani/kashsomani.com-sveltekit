@@ -11,13 +11,27 @@ export let cards = [
     },
     {
       index: 1,
-      title: "experience 2",
-      text: ["hello"],
+      title: "Technologies",
+      tech: [
+        'Bamboo',
+        'EC2',
+        'Cloudformation',
+        'Git',
+        'Spring Boot',
+        'Bash'
+      ],
     },
     {
       index: 2,
-      title: "experience 3",
-      text: ["greetings"],
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
   ],
   [
@@ -32,13 +46,27 @@ export let cards = [
     },
     {
       index: 1,
-      title: "experience 2",
-      text: ["hello"],
+      title: "Technologies",
+      tech: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
     {
       index: 2,
-      title: "experience 3",
-      text: ["greetings"],
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
   ],
   [
@@ -53,13 +81,27 @@ export let cards = [
     },
     {
       index: 1,
-      title: "experience 2",
-      text: ["hello"],
+      title: "Technologies",
+      tech: [
+        'Bamboo',
+        'EC2',
+        'Cloudformation',
+        'Git',
+        'Spring Boot',
+        'Bash'
+      ],
     },
     {
       index: 2,
-      title: "experience 3",
-      text: ["greetings"],
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
   ],
   [
@@ -76,13 +118,27 @@ export let cards = [
     },
     {
       index: 1,
-      title: "experience 2",
-      text: ["hello"],
+      title: "Technologies",
+      tech: [
+        'Bamboo',
+        'EC2',
+        'Cloudformation',
+        'Git',
+        'Spring Boot',
+        'Bash'
+      ],
     },
     {
       index: 2,
-      title: "experience 3",
-      text: ["greetings"],
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
   ],
   [
@@ -97,13 +153,27 @@ export let cards = [
     },
     {
       index: 1,
-      title: "experience 2",
-      text: ["hello"],
+      title: "Technologies",
+      tech: [
+        'Bamboo',
+        'EC2',
+        'Cloudformation',
+        'Git',
+        'Spring Boot',
+        'Bash'
+      ],
     },
     {
       index: 2,
-      title: "experience 3",
-      text: ["greetings"],
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
     },
   ],
 ];
