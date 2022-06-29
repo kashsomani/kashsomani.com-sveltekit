@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 border-b-2 border-amber-500">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
