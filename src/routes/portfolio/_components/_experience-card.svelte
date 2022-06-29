@@ -9,10 +9,10 @@
             index: 1,
             title: "Tech",
         },
-        {
-            index: 2,
-            title: "Soft-Skills",
-        },
+        // {
+        //     index: 2,
+        //     title: "Soft-Skills",
+        // },
     ];
     export let cards;
     let currentlyActive = 0;
@@ -22,8 +22,9 @@
     class="flex flex-col place-items-stretch gap-0 max-w-1/3 mt-4 bg-base-300 rounded-2xl"
     in:fly={{ x: 200, duration: 4000, delay: 3000 }}
 >
+    <!-- grid-cols-3 -->
     <div
-        class="tabs tab-border m-0 p-0 grid grid-cols-3 place-items-stretch gap-0"
+        class="tabs tab-border m-0 p-0 grid grid-cols-2 place-items-stretch gap-0"
         id="tabs"
     >
         {#each tabs as tab}
