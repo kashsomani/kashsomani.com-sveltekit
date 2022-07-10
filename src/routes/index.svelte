@@ -4,7 +4,8 @@
       <h1 class="text-5xl font-bold">Hello there</h1>
       <h1 class="text-5xl font-bold">I'm Kash Somani</h1>
       <p class="py-6">
-        I am a Web Developer <span class="text-primary">|</span> Cloud Engineer <span class="text-primary">|</span> Statistician 
+        I am a Web Developer <span class="text-primary">|</span> Cloud Engineer
+        <span class="text-primary">|</span> Statistician
       </p>
       <a class="btn bg-base-100" href="/portfolio">Open Portfolio</a>
     </div>
@@ -12,7 +13,7 @@
 </div>
 
 <style>
-  #hero{
-    min-height:80vh;
+  #hero {
+    min-height: 80vh;
   }
 </style>
