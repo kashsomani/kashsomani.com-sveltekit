@@ -5,9 +5,11 @@ const config = {
     extend: {},
   },
   daisyui: {
-    themes: ["black"],
+    themes: [
+      "luxury"
+    ],
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
-}
+};
 
-module.exports = config
+module.exports = config;
