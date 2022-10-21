@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100 border-b-2 border-amber-500">
+<div class="navbar bg-base-100 border-b-2 border-gray-500">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -18,7 +18,7 @@
       </label>
       <ul
         tabindex="0"
-        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 rounded-md"
       >
         <li><a href="/">Homepage</a></li>
         <li><a href="/portfolio">Portfolio</a></li>
@@ -27,8 +27,9 @@
     </div>
   </div>
   <div class="navbar-center">
-    <a href="/" class="btn btn-ghost text-xl"
-      >K<span class="text-primary">S</span></a
+    <a
+      href="/"
+      class="btn btn-ghost text-2xl uppercase rounded-xl text-gray-400">KS</a
     >
   </div>
   <div class="navbar-end" />
