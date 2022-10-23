@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100 border-b-2 border-amber-500">
+<div class="navbar bg-base-100 border-b-2 border-nav">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -27,9 +27,16 @@
     </div>
   </div>
   <div class="navbar-center">
-    <a href="/" class="btn btn-ghost text-xl text-primary"
-      >K<span class="text-amber-500">S</span></a
-    >
+    <a href="/" class="btn btn-ghost text-xl text-primary">K<span>S</span></a>
   </div>
   <div class="navbar-end" />
 </div>
+
+<style>
+  span {
+    color: #008264;
+  }
+  .border-nav {
+    border-bottom: 5px solid #04c498;
+  }
+</style>

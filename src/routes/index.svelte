@@ -7,7 +7,7 @@
         I am a Web Developer <span class="text-primary">|</span> Cloud Engineer
         <span class="text-primary">|</span> Statistician
       </p>
-      <a class="btn bg-base-100" href="/portfolio">Open Portfolio</a>
+      <a class="btn bg-primary" href="/portfolio">Open Portfolio</a>
     </div>
   </div>
 </div>

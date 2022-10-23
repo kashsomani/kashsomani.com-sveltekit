@@ -1,16 +1,16 @@
 <script>
-  import { fly, fade } from "svelte/transition";
-  import ExperienceGrid from "./_components/_experience-grid.svelte";
-  let visible = false;
-  import { onMount } from "svelte";
+  import { fly, fade } from "svelte/transition"
+  import ExperienceGrid from "./_components/_experience-grid.svelte"
+  let visible = false
+  import { onMount } from "svelte"
   onMount(async () => {
-    visible = true;
-  });
+    visible = true
+  })
 </script>
 
 <div class="w-full p-8 bg-base-200">
   <div
-    class="mockup-code border border-base-300 px:2 sm:px-6 min-h-[20%] min-w-full max-w-full text-sm sm:text-base "
+    class="mockup-code border border-base-300 px:2 sm:px-6 min-h-[20%] min-w-full max-w-full text-sm sm:text-base bg-primary "
   >
     {#if visible}
       <pre data-prefix="$" in:fly={{ y: 200, duration: 2000 }}><code
@@ -18,7 +18,7 @@
         ></pre>
       <pre
         data-prefix=">"
-        class="text-warning"
+        class="text-lime-200"
         in:fly={{ y: 200, duration: 4000 }}><code>downloading...</code></pre>
       <pre
         data-prefix=">"
