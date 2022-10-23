@@ -27,7 +27,7 @@
     </div>
   </div>
   <div class="navbar-center">
-    <a href="/" class="btn btn-ghost text-xl"
+    <a href="/" class="btn btn-ghost text-xl text-primary"
       >K<span class="text-amber-500">S</span></a
     >
   </div>
