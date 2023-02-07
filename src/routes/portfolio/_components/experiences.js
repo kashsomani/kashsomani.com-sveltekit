@@ -2,6 +2,41 @@ export let cards = [
   [
     {
       index: 0,
+      title: "Software Engineer at Liberty Mutual, Seattle",
+      text: [
+        `Developed high performant backend systems using .NET and a microservice architecture`,
+        `Built User Friendly interfaces using React and TypeScript`,
+        `This highly complex app generated an estimated of 3-6 million dollars of revenue a month`
+      ],
+    },
+    {
+      index: 1,
+      title: "Technologies",
+      tech: [
+        'Bamboo',
+        'EC2',
+        'Cloudformation',
+        'Git',
+        'Spring Boot',
+        'Bash'
+      ],
+    },
+    {
+      index: 2,
+      title: "Soft-Skills",
+      skills: [
+        'Firebase',
+        'Svelte.js',
+        'Node.js',
+        'Express.js',
+        'Git',
+        'Cloudflare'
+      ],
+    },
+  ],
+  [
+    {
+      index: 0,
       title: "Associate AWS Data Engineer at Liberty Mutual, Seattle",
       text: [
         `Developed tools to automate Alation queries and tagging, and to make bulkchanges to Bamboo pipelines`,
