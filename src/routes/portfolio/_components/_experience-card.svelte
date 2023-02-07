@@ -45,7 +45,7 @@
             {#if card.index === currentlyActive}
                 {#if card.index === 0}
                     <div
-                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none max-h-80 h-80 md:h-96 "
                     >
                         <div class="card-body max-w-prose">
                             <h2 class="card-title">{card.title}</h2>
@@ -57,7 +57,7 @@
                 {/if}
                 {#if card.index === 1}
                     <div
-                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none max-h-80 h-80 md:h-96"
                     >
                         <div class="card-body max-w-prose">
                             <h2 class="card-title ">
@@ -71,7 +71,7 @@
                 {/if}
                 {#if card.index === 2}
                     <div
-                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none h-full"
+                        class="card bg-base-100 shadow-xl max-w-full min-w-full rounded-t-none max-h-80 h-80 md:h-96"
                     >
                         <div class="card-body max-w-prose">
                             <h2 class="card-title ">

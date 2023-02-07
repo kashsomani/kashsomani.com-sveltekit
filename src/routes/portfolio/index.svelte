@@ -10,10 +10,10 @@
 
 <div class="w-full p-8 bg-base-200">
   <div
-    class="mockup-code border border-base-300 px:2 sm:px-6 min-h-[20%] min-w-full max-w-full text-sm sm:text-base bg-primary "
+    class="mockup-code border border-base-300 px:2 sm:px-6 min-h-[20%] min-w-full max-w-full text-sm sm:text-base bg-base-100 "
   >
     {#if visible}
-      <pre data-prefix="$" in:fly={{ y: 200, duration: 2000 }}><code
+      <pre data-prefix="$" in:fly={{ y: 200, duration: 2000 }} class="text-primary"><code
           >sudo download kash_somani</code
         ></pre>
       <pre
