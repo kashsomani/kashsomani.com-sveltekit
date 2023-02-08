@@ -4,7 +4,7 @@
 			<h1 class="text-5xl font-bold">Hello There</h1>
 			<h1 class="text-5xl font-bold">
 				<span class="text-accent">{`<`}</span>I'm<span
-					class="text-accent">{` />`}</span
+					class="text-accent">{`>`}</span
 				>
 				<span class="text-secondary">Kash Somani</span>
 				<span class="text-accent">{`<`}</span>I'm<span
